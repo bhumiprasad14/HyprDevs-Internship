@@ -1,8 +1,8 @@
 # 📝 ToDoApp
 
 A simple and interactive To-Do List application built using **HTML**, **CSS**, and **JavaScript**.  
-This app helps you manage your daily tasks efficiently.
-To view the project you can click on the following link:https://to-do-app-o4fs.vercel.app/
+This app helps you manage your daily tasks efficiently.To view the project you can click on the following link:https://to-do-app-o4fs.vercel.app/
+
 
 ---
 
