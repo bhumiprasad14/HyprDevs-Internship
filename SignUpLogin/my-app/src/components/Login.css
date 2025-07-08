@@ -1,0 +1,107 @@
+.App{
+    min-height: 100vh;
+    min-width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   background: hsl(0, 100%, 99%); /* optional: for contrast */
+}
+
+.header {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(155, 143, 104);
+    margin-bottom: 20px;
+}
+.container {
+    width: 40vh;
+    margin: auto;
+    padding: 20px;
+    border:none;
+    border-radius: 5px;
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #f1efe2;
+    box-shadow: 0 8px 18px 0 rgba(0,0,0,0.15);
+}
+    form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    }
+.input{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+    gap:5px;
+    position :relative;
+  
+   
+}
+.input input{
+    flex: 1 1 0%;
+    width: 100%;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+    border:2px solid rgb(155, 143, 104);
+}
+.input ::placeholder{
+     text-align: center;
+}
+.icons {
+    color:rgb(155, 143, 104);
+    font-size: 20px;
+    margin-left: 5px;
+}
+.button{
+    width: 100%;
+    padding: 10px;
+    margin: 5px 0;
+    background-color: #7d7955;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+ color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size:15px;
+}
+.button:hover{
+    background-color: #5c5438;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+.show{
+    background-color: transparent;
+    border: none;
+    color: rgb(155, 143, 104);
+    cursor: pointer;
+    font-size: 15px;
+}
+.input .show {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    flex-shrink: 0;
+    margin-left: 5px;
+}
+.container a{
+    text-decoration: none;
+    color: rgb(155, 143, 104);
+    font-weight: bold;
+}
+.link-btn {
+    background: none;
+    border: none;
+    color: rgb(155, 143, 104);
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+}
